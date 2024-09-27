@@ -5,11 +5,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import { Theme } from '@radix-ui/themes';
+import '@radix-ui/themes/styles.css';
 
 import Root from './routes/root.tsx';
 import About from './routes/about.tsx';
 import ErrorPage from "./error-page";
+import Works from './routes/works.tsx';
+import Contacts from './routes/contacts.tsx';
+import Projects from './routes/projects.tsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +24,18 @@ const router = createBrowserRouter([
         path: "about",
         element: <About />,
       },
+      {
+        path: "contacts",
+        element: <Contacts />,
+      },
+      {
+        path: "projects",
+        element: <Projects />,
+      },
+      {
+        path: "works",
+        element: <Works />,
+      },
     ]
   },
 ]);
@@ -28,8 +43,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Theme>
-      <RouterProvider router={router} />
-    </Theme>
+    <RouterProvider router={router} />
   </StrictMode>,
 )
