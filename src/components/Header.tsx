@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <Flex direction="column" gap="4" align="center">
-      <Box maxWidth="240px">
+      <Box maxWidth="240px" style={{ marginTop: '10px' }}>
         <Card>
           <Flex gap="3" align="center">
             <Avatar
