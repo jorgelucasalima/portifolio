@@ -26,7 +26,13 @@ export default function Projects() {
             <Modal 
               titleButton="Ver mais"
               titleProject="YourMaps" 
-              
+              descriptionProject="YourMaps é um aplicativo web para visualizar localização das marcações que está sendo recebida em uma API."
+              projectHaveApi={true}
+              nameApi="jsonplaceholder"
+              urlApi="https://jsonplaceholder.typicode.com/users"
+              libraries={["react-google-maps", "formik", "yup", "react-router-dom", "tailwindcss"]}
+              urlGithub="https://github.com/jorgelucasalima/yourmaps"
+              urlWebsite="https://yourmaps.netlify.app/"
             />
           </Text>
         </Card>
