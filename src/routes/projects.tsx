@@ -9,12 +9,12 @@ export default function Projects() {
           <Inset clip="padding-box" side="top" pb="current">
             <img
               src="https://yourmaps.netlify.app/assets/world-map-Cc-9Ird7.png"
-              alt="Bold typography"
+              alt="YourMaps"
               style={{
                 display: 'block',
                 objectFit: 'cover',
                 width: '100%',
-                height: 140,
+                height: 180,
                 backgroundColor: 'var(--gray-5)',
               }}
             />
@@ -41,20 +41,30 @@ export default function Projects() {
         <Card size="2">
           <Inset clip="padding-box" side="top" pb="current">
             <img
-              src="https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-              alt="Bold typography"
+              src="https://img.freepik.com/fotos-gratis/vista-do-predio-de-apartamentos-3d_23-2150259794.jpg?size=626&ext=jpg&ga=GA1.1.687316218.1728414467&semt=ais_hybrid"
+              alt="AppCep"
               style={{
                 display: 'block',
                 objectFit: 'cover',
                 width: '100%',
-                height: 140,
+                height: 180,
                 backgroundColor: 'var(--gray-5)',
               }}
             />
           </Inset>
           <Text as="p" size="3">
-            <Strong>Typography</Strong> is the art and technique of arranging type to
-            make written language legible, readable and appealing when displayed.
+            <Strong>AppCep</Strong> Projeto desenvolvido para auxiliar na busca de CEP consultando API do viacep.
+            <Modal 
+              titleButton="Ver mais"
+              titleProject="AppCep" 
+              descriptionProject="AppCep é um aplicativo web para auxiliar na busca de CEP consultando API do viacep, exibindo dados principais como CEP, Logradouro, Cidade e Bairro."
+              projectHaveApi={true}
+              nameApi="ViaCep"
+              urlApi="https://viacep.com.br/"
+              libraries={["Styled Components", "React Icons", "react-router-dom"]}
+              urlGithub="https://github.com/jorgelucasalima/appcep"
+              urlWebsite="https://appcep.netlify.app/"
+            />
           </Text>
         </Card>
       </Box>
