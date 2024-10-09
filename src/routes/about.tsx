@@ -2,12 +2,12 @@ import { Flex, Card, Text } from "@radix-ui/themes";
 
 export default function About() {
   return (
-    <Flex direction="column" gap="3" align="center">
+    <Flex direction="column" gap="4" align="center">
       <Card variant="surface" size="3">
         <Text as="div" size="6" weight="bold">
           Sobre mim
         </Text>
-        <Text as="div" color="gray" size="4">
+        <Text as="div" color="gray" size="2">
           Sou desenvolvedor fullstack com sólida experiência em ReactJS, NextJS, Laravel, MySQL e SQL Server. Ao longo da minha carreira, tenho trabalhado tanto no front-end quanto no back-end, criando aplicações web dinâmicas, escaláveis e orientadas à performance. Tenho paixão por resolver problemas complexos, aplicando soluções tecnológicas modernas e sempre buscando as melhores práticas de desenvolvimento.
         </Text>
       </Card>

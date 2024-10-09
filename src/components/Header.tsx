@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <Flex direction="column" gap="4" align="center">
       <Box maxWidth="240px" style={{ marginTop: '10px' }}>
-        <Card>
+        <Card >
           <Flex gap="3" align="center">
             <Avatar
               size="4"
@@ -23,7 +23,7 @@ export default function Header() {
                 Jorge Lima
               </Text>
               <Text as="div" size="2" color="gray">
-                Fullstack Developer
+                Fullstack Developer 
               </Text>
             </Box>
           </Flex>
