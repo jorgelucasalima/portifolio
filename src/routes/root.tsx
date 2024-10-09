@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Theme, Flex, Grid } from '@radix-ui/themes';
+import { Theme, Grid } from '@radix-ui/themes';
 import Header from "../components/Header";
 
 import '../styles/index.css';

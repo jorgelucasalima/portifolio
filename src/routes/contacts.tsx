@@ -1,4 +1,4 @@
-import { Avatar, Box, Card, Flex, Grid, Link, Text } from "@radix-ui/themes";
+import { Avatar, Box, Card, Flex, Link, Text } from "@radix-ui/themes";
 
 
 export default function Contacts() {

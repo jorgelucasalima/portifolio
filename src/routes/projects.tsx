@@ -1,4 +1,4 @@
-import { Grid, Box, Card, Inset, Text, Strong, Flex } from "@radix-ui/themes";
+import { Box, Card, Inset, Text, Strong, Flex } from "@radix-ui/themes";
 import Modal from "../components/Modal";
 
 export default function Projects() {

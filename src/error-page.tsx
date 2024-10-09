@@ -1,4 +1,4 @@
-import { Flex, Link, Text } from "@radix-ui/themes";
+import { Link, Text } from "@radix-ui/themes";
 import { useRouteError } from "react-router-dom";
 
 interface RouteError {
