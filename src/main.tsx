@@ -16,7 +16,7 @@ import Projects from './routes/projects.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/about",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
